@@ -8,6 +8,7 @@ public static class WebRequester
 {
     // Api request samples https://github.com/public-apis/public-apis
     // https://apipheny.io/free-api/
+    // https://api.le-systeme-solaire.net/en/
 
     public static IEnumerator GetRequest<T>(string uri, Action<T> callback)
     {
